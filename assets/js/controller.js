@@ -13,7 +13,7 @@ var music 	 = new Audio(),
 $('a.changer').on('click', function(){
 	var id = $(this).data('id'),
 		tk = getToken();
-	music.src = 'http://localhost/musicPlayer/music.php?id='+id+'&token='+tk;
+	music.src = 'music.php?id='+id+'&token='+tk;
 	$('#nome').val($(this).data('nome'));
 });
 $('#play').on('click', function(){

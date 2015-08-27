@@ -21,8 +21,8 @@ if(file_exists($track)) {
     header('Content-Disposition: filename="sometrack.mp3"');
     header('X-Pad: avoid browser bug');
     header('Cache-Control: no-cache');
-    print file_get_contents($track);
+    print readfile($track);
 } else {
-    echo "no file";
+    echo "no file ads";
 }
 ?>

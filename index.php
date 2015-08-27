@@ -8,8 +8,10 @@
 			setcookie('token', '1');
 		}
 	?>
-<a class="changer" href="javascript:void(0)" data-id="1" data-nome="Nome via php hip hop">Musica1</a>
-<a class="changer" href="javascript:void(0)" data-id="2" data-nome="Nome via php rap">Musica2</a><br /><br />
+<a class="changer" href="javascript:void(0)" data-id="1" data-nome="hip hop track">Musica1 - hiphop</a><br />
+<a class="changer" href="javascript:void(0)" data-id="2" data-nome="rap track">Musica2 - rap</a><br />
+<a class="changer" href="javascript:void(0)" data-id="3" data-nome="free falling - tom petty">Musica3 - tom petty</a>
+<br /><br />
 <input type="text" id="nome" placeholder="Nome da musica" disabled="true"><br /><br />
 <input type="button" value="Play()" id="play">
 <input type="button" value="Pause()" id="pause">
